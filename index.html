@@ -26,7 +26,10 @@
               "light-green": "#49D293",
               "light-yellow": "#FFB546",
               "light-blue": "#4C8DF1",
-              "menu-text": "#424247",
+              "light-gray": "#424247",
+              logo: "#131318",
+              "white-600": "#ffffff99",
+              "light-black": "rgba(19, 19, 24, 0.60)",
             },
           },
         },
@@ -38,9 +41,9 @@
       font-family: "Manrope", sans-serif;
     }
   </style>
-  <body class="font-manrope text-white">
-    <header>
-      <div class="navbar bg-base-100 box-border px-10">
+  <body class="font-manrope">
+    <header class="container mx-auto">
+      <div class="navbar bg-base-100 box-border">
         <div class="navbar-start">
           <div class="dropdown">
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -63,22 +66,24 @@
               tabindex="0"
               class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-menu-text"
             >
-              <li><a>Home</a></li>
-              <li><a>About</a></li>
-              <li><a>Pages</a></li>
-              <li><a>Blog</a></li>
-              <li><a>Contact</a></li>
+              <li><a class="hover:text-light-red hover:bg-none">Home</a></li>
+              <li><a class="hover:text-light-red">About</a></li>
+              <li><a class="hover:text-light-red">Pages</a></li>
+              <li><a class="hover:text-light-red">Blog</a></li>
+              <li><a class="hover:text-light-red">Contact</a></li>
             </ul>
           </div>
-          <a class="btn btn-ghost text-xl">daisyUI</a>
+          <a class="btn btn-ghost text-4xl text-logo font-extrabold"
+            >Hockey’s</a
+          >
         </div>
         <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal px-1 text-menu-text">
-            <li><a>Home</a></li>
-            <li><a>About</a></li>
-            <li><a>Pages</a></li>
-            <li><a>Blog</a></li>
-            <li><a>Contact</a></li>
+          <ul class="menu menu-horizontal px-1 text-light-gray">
+            <li><a class="hover:text-light-red hover:bg-none">Home</a></li>
+            <li><a class="hover:text-light-red">About</a></li>
+            <li><a class="hover:text-light-red">Pages</a></li>
+            <li><a class="hover:text-light-red">Blog</a></li>
+            <li><a class="hover:text-light-red">Contact</a></li>
           </ul>
         </div>
         <div class="navbar-end">
@@ -105,109 +110,199 @@
       </div>
     </header>
     <!-- carousel Start -->
-    <!-- <section>
-      <div class="carousel w-full h-80">
-        <div id="slide1" class="carousel-item relative w-full">
-          <img
-            src="https://daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.jpg"
-            class="w-full"
-          />
-          <div
-            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
-          >
-            <a href="#slide4" class="btn btn-circle">❮</a>
-            <a href="#slide2" class="btn btn-circle">❯</a>
+    <section class="container mx-auto">
+      <div class="carousel h-[550px]">
+        <div id="slide4" class="carousel-item relative w-full">
+          <img src="/images/1.png" class="w-full" />
+          <div class="absolute flex left-5 bottom-7 gap-3">
+            <a
+              href="#slide4"
+              class="btn btn-circle bg-logo text-white border-none"
+              >❮</a
+            >
+            <a
+              href="#slide2"
+              class="btn btn-circle bg-logo text-white border-none"
+              >❯</a
+            >
+          </div>
+
+          <div class="absolute flex right-5 bottom-7 gap-3">
+            <div class="card w-96 bg-base-100 shadow-xl bg-logo">
+              <div class="card-body">
+                <h2 class="card-title text-2xl font-extrabold text-white">
+                  Card title!
+                </h2>
+                <p class="text-base font-medium text-white-600">
+                  If a dog chews shoes whose shoes does he choose?
+                </p>
+              </div>
+            </div>
           </div>
         </div>
         <div id="slide2" class="carousel-item relative w-full">
-          <img
-            src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg"
-            class="w-full"
-          />
-          <div
-            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
-          >
-            <a href="#slide1" class="btn btn-circle">❮</a>
-            <a href="#slide3" class="btn btn-circle">❯</a>
+          <img src="/images/1.png" class="w-full" />
+          <div class="absolute flex left-5 bottom-7 gap-3">
+            <a
+              href="#slide1"
+              class="btn btn-circle bg-logo text-white border-none"
+              >❮</a
+            >
+            <a
+              href="#slide3"
+              class="btn btn-circle bg-logo text-white border-none"
+              >❯</a
+            >
+          </div>
+
+          <div class="absolute flex right-5 bottom-7 gap-3">
+            <div class="card w-96 bg-base-100 shadow-xl bg-logo">
+              <div class="card-body">
+                <h2 class="card-title text-2xl font-extrabold text-white">
+                  Card title!
+                </h2>
+                <p class="text-base font-medium text-white-600">
+                  If a dog chews shoes whose shoes does he choose?
+                </p>
+              </div>
+            </div>
           </div>
         </div>
         <div id="slide3" class="carousel-item relative w-full">
-          <img
-            src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg"
-            class="w-full"
-          />
-          <div
-            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
-          >
-            <a href="#slide2" class="btn btn-circle">❮</a>
-            <a href="#slide4" class="btn btn-circle">❯</a>
+          <img src="/images/1.png" class="w-full" />
+          <div class="absolute flex left-5 bottom-7 gap-3">
+            <a
+              href="#slide2"
+              class="btn btn-circle bg-logo text-white border-none"
+              >❮</a
+            >
+            <a
+              href="#slide4"
+              class="btn btn-circle bg-logo text-white border-none"
+              >❯</a
+            >
+          </div>
+
+          <div class="absolute flex right-5 bottom-7 gap-3">
+            <div class="card w-96 bg-base-100 shadow-xl bg-logo">
+              <div class="card-body">
+                <h2 class="card-title text-2xl font-extrabold text-white">
+                  Card title!
+                </h2>
+                <p class="text-base font-medium text-white-600">
+                  If a dog chews shoes whose shoes does he choose?
+                </p>
+              </div>
+            </div>
           </div>
         </div>
         <div id="slide4" class="carousel-item relative w-full">
-          <img
-            src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg"
-            class="w-full"
-          />
-          <div
-            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
-          >
-            <a href="#slide3" class="btn btn-circle">❮</a>
-            <a href="#slide1" class="btn btn-circle">❯</a>
+          <img src="/images/1.png" class="w-full" />
+          <div class="absolute flex left-5 bottom-7 gap-3">
+            <a
+              href="#slide3"
+              class="btn btn-circle bg-logo text-white border-none"
+              >❮</a
+            >
+            <a
+              href="#slide1"
+              class="btn btn-circle bg-logo text-white border-none"
+              >❯</a
+            >
+          </div>
+
+          <div class="absolute flex right-5 bottom-7 gap-3">
+            <div class="card w-96 bg-base-100 shadow-xl bg-logo">
+              <div class="card-body">
+                <h2 class="card-title text-2xl font-extrabold text-white">
+                  Card title!
+                </h2>
+                <p class="text-base font-medium text-white-600">
+                  If a dog chews shoes whose shoes does he choose?
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </section> -->
+    </section>
     <!-- carousel End -->
 
     <!-- Professional Hockeys Club Start -->
-    <!-- <section>
-      <div class="flex flex-col w-full">
-        <div class="grid h-20 card bg-base-300 rounded-box place-items-center">
+    <section class="container mx-auto">
+      <div class="flex flex-col w-full my-10">
+        <div class="grid h-20 card rounded-box place-items-center">
           <div class="text-center">
-            <h1>Professional Hockeys Club</h1>
-            <p>
+            <h1 class="text-4xl font-extrabold text-logo">
+              Professional Hockeys Club
+            </h1>
+            <p class="text-base font-medium py-4">
               Dit amet consectetur. Condimentum dignissim adipiscing aliquam
               turpis placerat dolor. Purus urna in sit nullam proin.
             </p>
           </div>
         </div>
         <div class="divider"></div>
-        <div class="grid grid-cols-4 gap-4">
-          <div class="item-1">
-            <div class="radial-progress" style="--value: 70" role="progressbar">
-              70%
+        <div class="grid grid-cols-4 gap-4 w-11/12 mx-auto">
+          <div class="item-1 px-8 flex flex-col gap-6">
+            <div
+              class="radial-progress text-light-red rotate-180"
+              style="--value: 87"
+              role="progressbar"
+            >
+              <span class="-rotate-180"> 87%</span>
             </div>
-            <h3>Prayer Facility</h3>
-            <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+            <h3 class="text-logo text-xl font-semibold">Prayer Facility</h3>
+            <p class="text-light-black text-base font-normal">
+              Amet consectetur. Condimentum dignissim adipiscing .
+            </p>
           </div>
-          <div class="item-1">
-            <div class="radial-progress" style="--value: 70" role="progressbar">
-              70%
+          <div class="item-1 px-8 flex flex-col gap-6">
+            <div
+              class="radial-progress text-light-green rotate-180"
+              style="--value: 95"
+              role="progressbar"
+            >
+              <span class="-rotate-180">95%</span>
             </div>
-            <h3>Prayer Facility</h3>
-            <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+            <h3 class="text-logo text-xl font-semibold">Experienced Coach</h3>
+            <p class="text-light-black text-base font-normal">
+              Amet consectetur. Condimentum dignissim adipiscing .
+            </p>
           </div>
-          <div class="item-1">
-            <div class="radial-progress" style="--value: 70" role="progressbar">
-              70%
+          <div class="item-1 px-8 flex flex-col gap-6">
+            <div
+              class="radial-progress text-light-yellow rotate-180"
+              style="--value: 90"
+              role="progressbar"
+            >
+              <span class="-rotate-180"> 90% </span>
             </div>
-            <h3>Prayer Facility</h3>
-            <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+            <h3 class="text-logo text-xl font-semibold">Senior Player</h3>
+            <p class="text-light-black text-base font-normal">
+              Amet consectetur. Condimentum dignissim adipiscing .
+            </p>
           </div>
-          <div class="item-1">
-            <div class="radial-progress" style="--value: 70" role="progressbar">
-              70%
+          <div class="item-1 px-8 flex flex-col gap-6">
+            <div
+              class="radial-progress text-light-blue rotate-180"
+              style="--value: 80"
+              role="progressbar"
+            >
+              <span class="-rotate-180">80%</span>
             </div>
-            <h3>Prayer Facility</h3>
-            <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+            <h3 class="text-logo text-xl font-semibold">Training Ground</h3>
+            <p class="text-light-black text-base font-normal">
+              Amet consectetur. Condimentum dignissim adipiscing .
+            </p>
           </div>
         </div>
       </div>
-    </section> -->
+    </section>
     <!-- Professional Hockeys Club end -->
 
     <!-- Program Sections Start -->
-    <!-- <section>
+    <section>
       <div class="container">
         <div class="divider">
           <div class="flex flex-col w-full">
@@ -285,7 +380,7 @@
           </div>
         </div>
       </div>
-    </section> -->
+    </section>
 
     <!-- Program Sections end -->
 
