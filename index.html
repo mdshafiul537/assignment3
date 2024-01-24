@@ -143,21 +143,21 @@
 
   <!-- Professional Hockeys Club Start -->
   <section class="container mx-auto">
-    <div class="flex flex-col w-full my-10">
-      <div class="grid h-20 card rounded-box place-items-center">
-        <div class="text-center">
-          <h1 class="text-4xl font-extrabold text-logo">
+    <div class="flex flex-col w-full my-10 sm:gap-5 gap-8 border-b border-dashed pb-8">
+      <div class="grid card rounded-box place-items-center  border-b border-dashed mb-5 gap-5">
+        <div class="text-center pb-4 flex flex-col gap-4">
+          <h1 class="text-4xl font-extrabold text-logo pb-3">
             Professional Hockeys Club
           </h1>
-          <p class="text-base font-medium py-4">
+          <p class="text-base font-medium py-4 my-3">
             Dit amet consectetur. Condimentum dignissim adipiscing aliquam
             turpis placerat dolor. Purus urna in sit nullam proin.
           </p>
         </div>
       </div>
-      <div class="divider"></div>
-      <div class="grid grid-cols-4 gap-4 w-11/12 mx-auto">
-        <div class="item-1 px-8 flex flex-col gap-6">
+
+      <div class="flex flex-row sm:flex-col md:flex-row gap-4 w-11/12 mx-auto">
+        <div class="item-1 px-8 flex flex-col gap-6 sm:items-center lg:items-start">
           <div class="radial-progress text-light-red rotate-180" style="--value: 87" role="progressbar">
             <span class="-rotate-180 text-logo text-2xl font-extrabold"> 87%</span>
           </div>
@@ -166,7 +166,7 @@
             Amet consectetur. Condimentum dignissim adipiscing .
           </p>
         </div>
-        <div class="item-1 px-8 flex flex-col gap-6">
+        <div class="item-1 px-8 flex flex-col gap-6 sm:items-center lg:items-start">
           <div class="radial-progress text-light-green rotate-180" style="--value: 95" role="progressbar">
             <span class="-rotate-180 text-logo text-2xl font-extrabold">95%</span>
           </div>
@@ -175,7 +175,7 @@
             Amet consectetur. Condimentum dignissim adipiscing .
           </p>
         </div>
-        <div class="item-1 px-8 flex flex-col gap-6">
+        <div class="item-1 px-8 flex flex-col gap-6 sm:items-center lg:items-start">
           <div class="radial-progress text-light-yellow rotate-180" style="--value: 90" role="progressbar">
             <span class="-rotate-180 text-logo text-2xl font-extrabold"> 90% </span>
           </div>
@@ -184,7 +184,7 @@
             Amet consectetur. Condimentum dignissim adipiscing .
           </p>
         </div>
-        <div class="item-1 px-8 flex flex-col gap-6">
+        <div class="item-1 px-8 flex flex-col gap-6 sm:items-center lg:items-start">
           <div class="radial-progress text-light-blue rotate-180" style="--value: 80" role="progressbar">
             <span class="-rotate-180 text-logo text-2xl font-extrabold">80%</span>
           </div>
@@ -200,20 +200,21 @@
 
   <!-- Program Sections Start -->
   <section class="container mx-auto">
-    <div class="divider"></div>
+
     <div class="flex flex-col w-full">
-      <div class="grid h-20 card box-border place-items-center">
-        <div class="text-center">
-          <h1 class="text-4xl font-extrabold text-logo">Program Sections</h1>
-          <p class="font-medium text-base text-light-black">
+      <div class="grid card box-border place-items-center border-b border-dashed mb-6">
+        <div class="text-center flex flex-col gap-5">
+          <h1 class="text-4xl font-extrabold text-logo py-4">Program Sections</h1>
+          <p class="font-medium text-base text-light-black pb-4">
             Dit amet consectetur. Condimentum dignissim adipiscing aliquam
             turpis placerat dolor. Purus urna in sit nullam proin.
           </p>
         </div>
       </div>
-      <div class="divider"></div>
-      <div class="grid grid-cols-2 grid-rows-2 gap-4 text-left">
-        <div class="hero min-h-screen rounded-2xl place-items-stretch" style="background-image: url(./images/2.png)">
+
+      <div class="grid grid-cols-2 sm:flex sm:flex-col md:grid  md:grid-cols-2  gap-4 text-left">
+        <div class="hero sm:h-80 min-h-screen rounded-2xl place-items-stretch"
+          style="background-image: url(./images/2.png)">
           <div class="hero-overlay bg-opacity-60 rounded-2xl"></div>
           <div class="hero-content text-center text-neutral-content flex flex-col items-baseline justify-end">
             <div class="max-w-md text-left gap-4 box-border pl-10 pb-10">
@@ -230,7 +231,8 @@
           </div>
         </div>
 
-        <div class="hero min-h-screen rounded-2xl place-items-stretch" style="background-image: url(./images/3.png)">
+        <div class="hero sm:h-80 min-h-screen rounded-2xl place-items-stretch"
+          style="background-image: url(./images/3.png)">
           <div class="hero-overlay bg-opacity-60 rounded-2xl"></div>
           <div class="hero-content text-center text-neutral-content flex flex-col items-baseline justify-end">
             <div class="max-w-md text-left gap-4 box-border pl-10 pb-10">
@@ -247,7 +249,7 @@
           </div>
         </div>
 
-        <div class="hero min-h-screen rounded-2xl col-span-2 place-items-stretch"
+        <div class="hero sm:h-80 min-h-screen rounded-2xl col-span-2 place-items-stretch"
           style="background-image: url(./images/4.png)">
           <div class="hero-overlay bg-opacity-60 rounded-2xl"></div>
           <div class="hero-content text-center text-neutral-content flex flex-col items-baseline justify-end">
@@ -272,10 +274,10 @@
 
   <!-- Our New Products Start  -->
   <section class="container mx-auto">
-    <div class="divider"></div>
-    <div class="flex flex-col w-full">
-      <div class="grid h-20 card rounded-box place-items-center">
-        <div class="text-center gap-6">
+
+    <div class="flex flex-col w-full border-t border-dashed my-8">
+      <div class="grid card rounded-box place-items-center">
+        <div class="text-center gap-6 border-b border-dashed">
           <h1 class="text-logo text-4xl font-extrabold">Program Sections</h1>
           <p class="text-light-black text-base font-medium py-4">
             Dit amet consectetur. Condimentum dignissim adipiscing aliquam
@@ -283,12 +285,12 @@
           </p>
         </div>
       </div>
-      <div class="divider"></div>
-      <div class="grid grid-cols-2 grid-rows-2 gap-4 mt-8">
+
+      <div class="grid grid-cols-2 sm:flex sm:flex-col md:grid md:grid-rows-2 grid-rows-2 gap-4 mt-8">
         <div class="card card-side bg-base-100 shadow-xl rounded-2xl border-lb-10 border-solid border p-6">
-          <div class="card-body flex-row">
-            <div class="">
-              <img src="./images/5.png" />
+          <div class="card-body flex-row md:flex-row md:items-start sm:flex-col sm:items-center sm:w-full  sm:gap-4 ">
+            <div class="sm:w-[400px] md:w-[180px]">
+              <img src="./images/5.png" class="w-full" />
             </div>
             <div class="flex flex-col justify-between pl-4">
               <div class="mb-4">
@@ -307,7 +309,7 @@
                 Click the button to watch on Jetflix app.
               </p>
               <div class="card-actions gap-5 py-4">
-                <span class="text-light-red">Price-$22.0</span>
+                <span class="text-light-red text-lg font-extrabold">Price-$22.0</span>
                 <span><i class="fa-solid fa-cart-shopping"></i>&nbsp;Delivery Fee
                   : Free</span>
               </div>
@@ -316,9 +318,9 @@
         </div>
 
         <div class="card card-side bg-base-100 shadow-xl rounded-2xl border-lb-10 border-solid border p-6">
-          <div class="card-body flex-row">
-            <div class="">
-              <img src="./images/6.png" />
+          <div class="card-body flex-row md:flex-row md:items-start sm:flex-col sm:items-center sm:w-full  sm:gap-4 ">
+            <div class="sm:w-[400px] md:w-[180px]">
+              <img src="./images/6.png" class="w-full" />
             </div>
             <div class="flex flex-col justify-between pl-4">
               <div class="mb-4">
@@ -337,7 +339,7 @@
                 Click the button to watch on Jetflix app.
               </p>
               <div class="card-actions gap-5 py-4">
-                <span class="text-light-red">Price-$22.0</span>
+                <span class="text-light-red text-lg font-extrabold">Price-$22.0</span>
                 <span><i class="fa-solid fa-cart-shopping"></i>&nbsp;Delivery Fee
                   : Free</span>
               </div>
@@ -346,9 +348,9 @@
         </div>
 
         <div class="card card-side bg-base-100 shadow-xl rounded-2xl border-lb-10 border-solid border p-6">
-          <div class="card-body flex-row">
-            <div class="">
-              <img src="./images/7.png" />
+          <div class="card-body flex-row md:flex-row md:items-start sm:flex-col sm:items-center sm:w-full  sm:gap-4 ">
+            <div class="sm:w-[400px] md:w-[180px]">
+              <img src="./images/7.png" class="w-full" />
             </div>
             <div class="flex flex-col justify-between pl-4">
               <div class="mb-4">
@@ -367,7 +369,7 @@
                 Click the button to watch on Jetflix app.
               </p>
               <div class="card-actions gap-5 py-4">
-                <span class="text-light-red">Price-$22.0</span>
+                <span class="text-light-red text-lg font-extrabold">Price-$22.0</span>
                 <span><i class="fa-solid fa-cart-shopping"></i>&nbsp;Delivery Fee
                   : Free</span>
               </div>
@@ -376,9 +378,9 @@
         </div>
 
         <div class="card card-side bg-base-100 shadow-xl rounded-2xl border-lb-10 border-solid border p-6">
-          <div class="card-body flex-row">
-            <div class="">
-              <img src="./images/8.png" />
+          <div class="card-body flex-row md:flex-row md:items-start sm:flex-col sm:items-center sm:w-full  sm:gap-4 ">
+            <div class="sm:w-[400px] md:w-[180px]">
+              <img src="./images/8.png" class="w-full" />
             </div>
             <div class="flex flex-col justify-between pl-4">
               <div class="mb-4">
@@ -397,7 +399,7 @@
                 Click the button to watch on Jetflix app.
               </p>
               <div class="card-actions gap-5 py-4">
-                <span class="text-light-red">Price-$22.0</span>
+                <span class="text-light-red text-lg font-extrabold">Price-$22.0</span>
                 <span><i class="fa-solid fa-cart-shopping"></i>&nbsp;Delivery Fee
                   : Free</span>
               </div>
@@ -406,9 +408,9 @@
         </div>
 
         <div class="card card-side bg-base-100 shadow-xl rounded-2xl border-lb-10 border-solid border p-6">
-          <div class="card-body flex-row">
-            <div class="">
-              <img src="./images/9.png" />
+          <div class="card-body flex-row md:flex-row md:items-start sm:flex-col sm:items-center sm:w-full  sm:gap-4 ">
+            <div class="sm:w-[400px] md:w-[180px]">
+              <img src="./images/9.png" class="w-full" />
             </div>
             <div class="flex flex-col justify-between pl-4">
               <div class="mb-4">
@@ -427,7 +429,7 @@
                 Click the button to watch on Jetflix app.
               </p>
               <div class="card-actions gap-5 py-4">
-                <span class="text-light-red">Price-$22.0</span>
+                <span class="text-light-red text-lg font-extrabold">Price-$22.0</span>
                 <span><i class="fa-solid fa-cart-shopping"></i>&nbsp;Delivery Fee
                   : Free</span>
               </div>
@@ -436,9 +438,9 @@
         </div>
 
         <div class="card card-side bg-base-100 shadow-xl rounded-2xl border-lb-10 border-solid border p-6">
-          <div class="card-body flex-row">
-            <div class="">
-              <img src="./images/10.png" />
+          <div class="card-body flex-row md:flex-row md:items-start sm:flex-col sm:items-center sm:w-full  sm:gap-4 ">
+            <div class="sm:w-[400px] md:w-[180px]">
+              <img src="./images/10.png" class="w-full" />
             </div>
             <div class="flex flex-col justify-between pl-4">
               <div class="mb-4">
@@ -457,13 +459,15 @@
                 Click the button to watch on Jetflix app.
               </p>
               <div class="card-actions gap-5 py-4">
-                <span class="text-light-red">Price-$22.0</span>
+                <span class="text-light-red text-lg font-extrabold">Price-$22.0</span>
                 <span><i class="fa-solid fa-cart-shopping"></i>&nbsp;Delivery Fee
                   : Free</span>
               </div>
             </div>
           </div>
         </div>
+
+
       </div>
     </div>
   </section>
@@ -471,20 +475,21 @@
 
   <!-- Clients Question Start -->
   <section class="container mx-auto">
-    <div class="divider"></div>
-    <div class="flex flex-col w-full">
-      <div class="grid h-20 card rounded-box place-items-center">
-        <div class="text-center gap-6">
+
+    <div class="flex flex-col w-full border-t border-dashed py-4 border-b">
+      <div class="grid card rounded-box place-items-center border-b border-dashed">
+        <div class="text-center gap-6 flex flex-col gap-4">
           <h1 class="text-logo text-4xl font-extrabold">Clients Question</h1>
-          <p class="text-light-black text-base font-medium py-4">
+          <p class="text-light-black text-base font-medium py-4 mb-4">
             Dit amet consectetur. Condimentum dignissim adipiscing aliquam
             turpis placerat dolor. Purus urna in sit nullam proin.
           </p>
         </div>
       </div>
-      <div class="divider"></div>
+
       <div class="hero min-h-screen">
-        <div class="hero-content flex-row items-start justify-between">
+        <div
+          class="rounded-2xl shadow-xl my-4 border hero-content flex-row sm:flex-col md:flex-row sm:justify-center md:justify-normal sm:items-center md:ite items-start justify-between">
           <div class="max-w-md">
             <img src="./images/11.png" />
           </div>
@@ -575,7 +580,7 @@
 
   <!-- Get In Touch Start -->
   <section class="container mx-auto">
-    <div class="card rounded-box place-items-center">
+    <div class="card rounded-box place-items-center py-8">
       <div class="text-center gap-6">
         <h1 class="text-logo text-4xl font-extrabold">Get In Tuch</h1>
         <p class="text-light-black text-base font-medium py-4">
@@ -588,10 +593,11 @@
     <div class="border-b border-dashed mb-8"></div>
     <div class="w-full flex flex-col justify-between items-start">
       <div class="hero w-full">
-        <div class="grid grid-cols-3 w-full gap-4 my-5">
+        <div class="grid grid-cols-3 md:grid md:grid-cols-3  w-full gap-4 my-5 sm:flex sm:flex-col">
+
           <div class="card border rounded-2xl place-content-stretch p-5">
-            <div class="card-body bg-yl rounded-2xl ">
-              <div class="w-full gap-5">
+            <div class="card-body rounded-2xl gap-6">
+              <div class="w-full gap-5 rounded-2xl p-4" style="background-color: rgba(188, 237, 109, 0.10);">
                 <img class="py-4" src="./images/phone.png">
                 <div class=" text-l-gray-40 py-2">
                   <span class="text-base font-normal py-3">
@@ -601,7 +607,7 @@
                 </div>
               </div>
 
-              <div class="w-full">
+              <div class="w-full rounded-2xl p-4" style="background-color: rgba(253, 221, 95, 0.10);">
                 <img class="py-4" src="./images/message.png">
                 <div class=" text-l-gray-40">
                   <span class="py-3 text-base font-normal">
@@ -611,7 +617,7 @@
                 </div>
               </div>
 
-              <div class="w-full">
+              <div class="w-full rounded-2xl p-4" style="background-color: rgba(98, 156, 243, 0.10);">
                 <img class="py-4" src="./images/location.png">
                 <div class="text-l-gray-40">
                   <span class="py-3 text-base font-normal">
@@ -624,23 +630,24 @@
           </div>
 
           <div class="card items-start w-full col-span-2">
-            <form class="card-body grid grid-cols-2 gap-6 place-content-stretch w-full ">
+            <form
+              class="card-body grid grid-cols-2 md:grid md:grid-cols-2  sm:flex sm:flex-col sm:gap-12 gap-6 place-content-stretch w-full ">
               <div class="form-control -mt-9">
-                <label class="label">
+                <label class="label sm:mb-2">
                   <span class="label-text text-xl font-bold text-logo">Your Name</span>
                 </label>
                 <input type="text" placeholder="Enter your full name" class="input w-full bg-l-gray-30 text-l-gray-300"
                   required />
               </div>
               <div class="form-control -mt-9">
-                <label class="label">
+                <label class="label sm:mb-2">
                   <span class="label-text font-bold text-logo">Email</span>
                 </label>
                 <input type="email" placeholder="Enter your email" class="input w-full bg-l-gray-30 text-l-gray-300"
                   required />
               </div>
               <div class="form-control">
-                <label class="label">
+                <label class="label sm:mb-2">
                   <span class="label-text font-bold text-logo">Subject</span>
                 </label>
                 <select class="input w-full bg-l-gray-30 text-l-gray-30 text-l-gray-300"
@@ -650,7 +657,7 @@
               </div>
 
               <div class="form-control">
-                <label class="label">
+                <label class="label sm:mb-2">
                   <span class="label-text font-bold text-logo">Phone Number</span>
                 </label>
                 <input type="text" placeholder="Enter your phone number"
@@ -658,7 +665,7 @@
               </div>
 
               <div class="form-control col-span-2">
-                <label class="label">
+                <label class="label sm:mb-2">
                   <span class="label-text font-bold text-logo">Message</span>
                 </label>
                 <textarea type="text" placeholder="Write your message"
@@ -674,8 +681,8 @@
         </div>
       </div>
 
-      <div class="flex justify-center items-center w-full bg-l-gray-30 mt-8 ">
-        <div class="flex flex-col gap-4 py-3">
+      <div class="flex justify-center items-center w-full bg-l-gray-30 mt-8 rounded-lg">
+        <div class="flex flex-col gap-4 py-3 ">
           <h3 class="text-2xl font-extrabold text-logo">Social Media</h3>
           <ul class="flex flex-row gap-6 py-2">
             <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
