@@ -92,18 +92,19 @@
   </header>
   <!-- carousel Start -->
   <section class="container mx-auto">
-    <div class="carousel h-[550px]">
-      <div id="slide1" class="carousel-item relative w-full">
+    <div class="carousel h-[550px] sm:h-[550px] border-b border-dashed">
+      <div id="slide1"
+        class="carousel-item relative w-full sm:flex sm:flex-col sm:static sm:justify-start sm:gap-4 sm:items-center">
         <img src="./images/1.png" class="w-full" />
-        <div class="absolute flex left-5 bottom-7 gap-3">
-          <a href="#slide4" class="btn btn-circle bg-logo text-white border-none">❮</a>
+        <div class="absolute flex left-5 bottom-7 gap-3 sm:static">
+          <a href="#slide2" class="btn btn-circle bg-logo text-white border-none">❮</a>
           <a href="#slide2" class="btn btn-circle bg-logo text-white border-none">❯</a>
         </div>
 
-        <div class="absolute flex right-5 bottom-7 gap-3">
-          <div class="card w-96 bg-base-100 shadow-xl bg-logo">
-            <div class="card-body">
-              <h2 class="card-title text-2xl font-extrabold text-white">
+        <div class="absolute flex right-5 bottom-7 gap-3 sm:static sm:w-full">
+          <div class="card w-96 bg-base-100 shadow-xl bg-logo sm:w-full">
+            <div class="card-body sm:flex sm:flex-col sm:justify-start sm:items-center">
+              <h2 class="card-title text-2xl font-extrabold text-white sm:text-center">
                 Card title!
               </h2>
               <p class="text-base font-medium text-white-600">
@@ -113,57 +114,18 @@
           </div>
         </div>
       </div>
-      <div id="slide2" class="carousel-item relative w-full">
+      <div id="slide2"
+        class="carousel-item relative w-full sm:flex sm:flex-col sm:static sm:justify-start sm:gap-4 sm:items-center">
         <img src="./images/4.png" class="w-full" />
-        <div class="absolute flex left-5 bottom-7 gap-3">
+        <div class="absolute flex left-5 bottom-7 gap-3 sm:static">
           <a href="#slide1" class="btn btn-circle bg-logo text-white border-none">❮</a>
-          <a href="#slide3" class="btn btn-circle bg-logo text-white border-none">❯</a>
-        </div>
-
-        <div class="absolute flex right-5 bottom-7 gap-3">
-          <div class="card w-96 bg-base-100 shadow-xl bg-logo">
-            <div class="card-body">
-              <h2 class="card-title text-2xl font-extrabold text-white">
-                Card title!
-              </h2>
-              <p class="text-base font-medium text-white-600">
-                If a dog chews shoes whose shoes does he choose?
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="slide3" class="carousel-item relative w-full">
-        <img src="./images/1.png" class="w-full" />
-        <div class="absolute flex left-5 bottom-7 gap-3">
-          <a href="#slide2" class="btn btn-circle bg-logo text-white border-none">❮</a>
-          <a href="#slide4" class="btn btn-circle bg-logo text-white border-none">❯</a>
-        </div>
-
-        <div class="absolute flex right-5 bottom-7 gap-3">
-          <div class="card w-96 bg-base-100 shadow-xl bg-logo">
-            <div class="card-body">
-              <h2 class="card-title text-2xl font-extrabold text-white">
-                Card title!
-              </h2>
-              <p class="text-base font-medium text-white-600">
-                If a dog chews shoes whose shoes does he choose?
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="slide4" class="carousel-item relative w-full">
-        <img src="./images/4.png" class="w-full" />
-        <div class="absolute flex left-5 bottom-7 gap-3">
-          <a href="#slide3" class="btn btn-circle bg-logo text-white border-none">❮</a>
           <a href="#slide1" class="btn btn-circle bg-logo text-white border-none">❯</a>
         </div>
 
-        <div class="absolute flex right-5 bottom-7 gap-3">
-          <div class="card w-96 bg-base-100 shadow-xl bg-logo">
-            <div class="card-body">
-              <h2 class="card-title text-2xl font-extrabold text-white">
+        <div class="absolute flex right-5 bottom-7 gap-3 sm:static sm:w-full">
+          <div class="card w-96 bg-base-100 shadow-xl bg-logo sm:w-full">
+            <div class="card-body sm:flex sm:flex-col sm:justify-start sm:items-center">
+              <h2 class="card-title text-2xl font-extrabold text-white sm:text-center">
                 Card title!
               </h2>
               <p class="text-base font-medium text-white-600">
@@ -173,6 +135,8 @@
           </div>
         </div>
       </div>
+
+
     </div>
   </section>
   <!-- carousel End -->
